@@ -557,45 +557,45 @@ section.active{
     font-size: 2rem;
 }
 
-.experience-container{
+.projet-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 3rem;
 }
 
-.experience-detail{
+.projet-detail{
     display: none;
 }
 
-.experience-detail.active{
+.projet-detail.active{
     display: block;
 }
 
-.experience-box .numb {
+.projet-box .numb {
     font-size: 8rem;
     -webkit-text-stroke: 0.7rem var(--white-color);
     color: transparent;
     line-height: 1;
 }
 
-.experience-box h3{
+.projet-box h3{
     font-size: 3.5rem;
     margin: .8rem 0 2rem;
 }
 
-.experience-box p{
+.projet-box p{
     font-size: 1.6rem;
 }
 
 
-.experience-box .tech{
+.projet-box .tech{
     margin: 2rem 0;
     color: var(--main-color);
     border-bottom: .1rem solid var(--white-color);
     padding-bottom: 2rem;
 }
 
-.experience-box .live-github a{
+.projet-box .live-github a{
     position: relative;
     display: inline-flex;
     padding: 1.3rem;
@@ -606,19 +606,19 @@ section.active{
     transition: .5s;
 }
 
-.experience-box .live-github a:hover{
+.projet-box .live-github a:hover{
     color: var(--main-color);
 }
 
-.experience-box .live-github a:first-child{
+.projet-box .live-github a:first-child{
     margin-right:1.5rem;
 }
 
-.experience-box .live-github a:first-child i{
+.projet-box .live-github a:first-child i{
     transform: rotate(135deg);
 }
 
-.experience-box .live-github a span{
+.projet-box .live-github a span{
     position: absolute;
     top: -60%;
     left: 50%;
@@ -634,20 +634,20 @@ section.active{
     transition: .2s;
 }
 
-.experience-box .live-github a:hover span{
+.projet-box .live-github a:hover span{
     top: -70%;
     opacity: 1;
     transform: translateX(-50%) scale(1);
 }
 
-.experience-box .experience-carrousel{
+.projet-box .experience-carrousel{
     width: 100%;
     height: 45rem;
     border: 1rem;
     overflow: hidden;
 }
 
-.experience-carrousel .img-slide{
+.projet-carrousel .img-slide{
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: 100%;
@@ -656,11 +656,11 @@ section.active{
     transition: .2s;
 }
 
-.experience-carrousel .img-item{
+.projet-carrousel .img-item{
     height: inherit;
 }
 
-.experience-carrousel .img-item img{
+.projet-carrousel .img-item img{
     display: block;
     width: 100%;
     height: 100%;
@@ -668,12 +668,12 @@ section.active{
     border-radius: 1rem;
 }
 
-.experience-box .navigation{
+.projet-box .navigation{
     text-align: right;
     margin-top: 2rem;
 }
 
-.experience-box .navigation button{
+.projet-box .navigation button{
     display: inline-flex;
     padding: .4rem;
     background: var(--second-bg-color);
@@ -684,11 +684,11 @@ section.active{
     cursor: pointer;
 }
 
-.experience-box .navigation .arrow-right{
+.projet-box .navigation .arrow-right{
     margin-left: 1.5rem;
 }
 
-.experience-box .navigation button.disabled{
+.projet-box .navigation button.disabled{
     border-color: var(--second-bg-color);
     color: var(--disabled-color);
 }
@@ -779,17 +779,6 @@ section.active{
     margin-top: 2rem;
     cursor: pointer;
 }
-
-.footer p{
-    color: var(--white-color);
-    font-size: 2rem;
-    background-color: var(--main-color);
-}
-
-footer p{
-    color: var(--white-color);
-}
-
 
 /*Responsivité*/
 
