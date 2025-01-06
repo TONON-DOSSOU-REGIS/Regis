@@ -786,6 +786,10 @@ section.active{
     background-color: var(--main-color);
 }
 
+footer p{
+    color: var(--white-color);
+}
+
 
 /*Responsivité*/
 
